@@ -1,0 +1,21 @@
+body
+{
+    background-color:maroon;
+}
+#grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.container
+{
+    background-color: lavenderblush;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+h1
+{
+    text-align: center;
+}

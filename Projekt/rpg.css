@@ -1,0 +1,158 @@
+h1
+{
+    text-align: center;
+    color: white;
+}
+h3
+{
+    text-align: center;
+    color: white;
+}
+#katze
+{
+    position: relative;
+}
+body
+{
+    background-image: url("hintergrund.jpg");
+    background-size: cover;
+    font-size: large;
+}
+.grid
+{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+}
+.box
+{
+    margin: 20px;
+    padding: 20px;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+    text-align: center;
+    background-color: pink;
+    border-radius: 20px;
+    font-size: large;
+}
+.boxi
+{
+    margin: 20px;
+    padding: 20px;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+    text-align: center;  
+    color: white;
+    position: relative;
+    font-size: large;
+}
+.kampfgrid
+{ 
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+button
+{
+    display: inline-block;
+    background-color: rgb(249, 231, 189);
+    border-style: double;
+    font-size: 28px;
+}
+.schere:hover
+{
+    background-color: silver;
+}
+.stein:hover
+{
+    background-color: gray;
+}
+.papier:hover
+{
+    background-color: white;
+}
+.heilen:hover
+{
+    background-color: green;
+}
+progress
+{
+    background-color: green;
+}
+#kampflog
+{
+    width: 200px;
+    height: 350px;
+    text-align: start;
+}
+.kampflogunentschieden
+{
+    margin: 20px;
+    padding: 20px;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+    text-align: center;
+    background-color: yellow;
+    color: white;
+    
+}
+.kampfloggewonnen
+{
+    margin: 20px;
+    padding: 20px;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+    text-align: center;
+    background-color: green;
+    color: white;
+    
+}
+.kampflogverloren
+{
+    margin: 20px;
+    padding: 20px;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+    text-align: center;
+    background-color: red;
+    color: white;
+    
+}
+#einfach
+{
+    background-color: green;
+}
+#easy:hover
+{
+    background-color: green;
+}
+#easy:disabled
+{
+    background-color: green;
+}
+#normal
+{
+    background-color: yellow;
+}
+#mittel:hover
+{
+    background-color: yellow;
+}
+#mittel:disabled
+{
+    background-color: yellow;
+}
+#schwer
+{
+    background-color: red;
+}
+#hard:hover
+{
+    background-color: red;
+}
+#hard:disabled
+{
+    background-color: red;
+}

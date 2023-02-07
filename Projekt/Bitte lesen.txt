@@ -1,0 +1,8 @@
+Hallo Frau Plonka,
+Wenn die .html Datei beim Öffnen nicht so aussieht, wie auf den Screenshots, dann ist beim senden irgendwas schiefgelaufen.
+Ich hab das in eine .zip Datei gespeichert, weil ich über die Abgabe keine .js Dateien senden kann, weil diese laut Teams zu gefährlich sind.
+Hoffe das funktioniert trotzdem, die .zip Datei muss vermutlich vorher entpackt werden, d.h. den Ordner aus der .zip Datei irgendowanders hinziehen, dann sollte es funktionieren.
+
+Schönen Tag/Abend noch!
+Mit freundlichen Grüßen
+Daniel Ennemoser

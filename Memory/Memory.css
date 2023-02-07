@@ -1,0 +1,22 @@
+body
+{
+    background-color: darkslategray;
+}
+.karten
+{
+    background-color: gray;
+    margin: 5px;
+    padding: 5px;
+    width: 305px;
+    height: 265px;
+}
+#grid
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.zug
+{
+    background-color: green;
+}

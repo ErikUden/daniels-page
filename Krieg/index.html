@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <script src="jquery.js"></script>
+    <script type="text/javascript" src="rpg.js"></script>
+    <link rel="stylesheet" type="text/css" href="rpg.css">
+    <title>Geniales Design</title>
+</head>
+<body>
+    <h1>Schwierigkeitsgrad auswählen</h1>
+    <h3 id="anzeige">(Schwierigkeitsgrad: Normal)</h3>
+    <div class="grid">
+            <div class="box" id="einfach"><button id="easy"   type="button" onClick="schwierigkeitsgrad(this.id)">Einfach</button></div>
+            <div class="box" id="normal"> <button id="mittel" type="button" onClick="schwierigkeitsgrad(this.id)">Normal</button></div>
+            <div class="box" id="schwer"> <button id="hard"   type="button" onClick="schwierigkeitsgrad(this.id)">Unmöglich</button></div>
+    </div>
+
+    <h1>Charkaterauswahl</h1>
+    <h3>(nur optisch)<br>Klicke auf das Bild oder den Namen</h3>
+   
+    <div class="grid">
+        <div onClick="getid(this.id)" class="boxi" id="pirat"><img src="pirat.jpg"></div>
+        <div onClick="getid(this.id)" class="boxi" id="katze"><img src="katze.jpg"></div>
+        <div onClick="getid(this.id)" class="boxi" id="einauge"><img src="einauge.jpg"></div>
+        <div onClick="getid(this.id)" class="box" id="pirat">Pirat</div>
+        <div onClick="getid(this.id)" class="box" id="katze">Katze</div>
+        <div onClick="getid(this.id)" class="box" id="einauge">Typ mit einem Auge</div>
+    
+</body>
+</html>
